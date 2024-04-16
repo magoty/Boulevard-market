@@ -1,0 +1,243 @@
+@import url(fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat';
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header__nav {
+    background: #282828;
+    padding: 0 10px;
+}
+
+.header__nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav-list {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+
+.header__logo {
+    width: 100px;
+    height: 53px;
+    margin: 6px 0;
+}
+
+.header__nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.header__nav-link {
+    color: #FFF;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.header__nav-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+
+.banner {
+    height: 89.5vh;
+    background: url(../img/Header.jpg) no-repeat center / cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 35px;
+}
+
+.banner__title {
+    text-align: center;
+    color: #FFF;
+    font-family: 'Prosto One';
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 75px;
+}
+
+.banner__btn {
+    background: #FFF;
+    color: #171718;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.banner__btn-icon {
+    margin-left: 11px;
+}
+
+.banner__content {
+    padding: 14px;
+    border-radius: 10px;
+    background: #FFF;
+    color: #171718;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.about {
+    padding: 30px 0 30px;
+    background: #151515;
+}
+
+
+
+.about__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 30px;
+    margin-bottom: 50px;
+}
+
+
+.about__descc {
+    max-width: 538px;
+    width: 100%;
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 500;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+.about__desc:nth-child(1) {
+    max-width: 333px;
+    width: 100%;
+    color: #FFF;
+    text-align: right;
+    font-size: 20px;
+    font-weight: 700;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+    overflow: hidden;
+}
+
+.about__box .about__desc:nth-last-child(1) {
+    max-width: 333px;
+    width: 100%;
+    color: #FFF;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 700;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+    overflow: hidden;
+}
+
+.cards {
+    background: #151515;
+    padding: 30px 0 55px;
+}
+
+.cards__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    max-width: 255px;
+    width: 100%;
+    text-align: center;
+    background: #fff;
+    border-radius: 6px;
+    padding: 15px 47px;
+}
+
+.card__title {
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+.card__desc {
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    text-transform: uppercase;
+    margin: 10px 0 20px;
+}
+
+.card__btn {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+    background: #151515;
+    max-width: 161px;
+    width: 100%;
+    padding: 7px 57px;
+}
+
+.footer {
+    background: #282828;
+    box-shadow: 0px -4px 20px 0px rgba(0, 0, 0, 0.25);
+    padding: 80px 0;
+}
+
+.footer__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__list, .footer__icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.footer__link {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+}
